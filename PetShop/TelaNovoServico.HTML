@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<header>
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        .clinica {
+
+            color: black;
+            border: 2px solid black;
+            margin: 20px;
+            padding: 5px;
+            
+        }
+    </style>
+
+
+    <style>
+        .clinica2 {
+            text-align: center;
+            background-color: rgb(238, 33, 33);
+            color: black;
+            border: 2px solid black;
+            margin: 50px;
+            width: 90%;
+            position: fixed;
+           
+        }
+    </style>
+
+
+</header>
+
+
+<body background="Fotos/backgroudoficial.jpg">
+
+
+    <div class="clinica">
+        <h1>THE BIG BEST PETSHOP</h1>
+        <p>Sejam bem vindos ao nosso site, aonde você pode realizar o agendamento de um serviço em nossas unidades!</p>
+
+
+        <div class="clinica2">
+            <h3> Qual Serviço Você Deseja Agendar? </h3>
+            <input type="text" class="form-control" placeholder="Serviço a ser Prestado:">
+            <br>
+            <br>
+
+            <h3> Qual Data Você Deseja Agendar o Serviço? </h3>
+            <input type="date" class="form-control" placeholder="Serviço a ser Prestado:">
+            <br>
+            <br>
+
+            <h3> Tem preferencia com algum dos nossos funcionários? </h3>
+
+            <input type="checkbox" id="preferencia1" name="preferencia" value="sim">
+            <label for="preferencia1">Sim</label><br>
+
+            <input type="checkbox" id="preferencia2" name="preferencia" value="nao">
+            <label for="preferencia2">Não</label><br>
+
+            <input type="checkbox" id="preferencia2" name="preferencia" value="indiferente">
+            <label for="preferencia2">Indiferente</label><br>
+            <br>
+
+
+            <h3> Caso haja Preferência selecione um dos nossos funcionários abaixo, caso não ignorar: </h3>
+            <select id="funcionario" name="funcionario">
+                <option value="indiferente">Indiferente</option>
+                <option value="lilian">Lilian Vitoria Martins da Costa</option>
+                <option value="joao">João Victor Viana</option>
+                <option value="rute">Rute Mellyssa da Silva Costa</option>
+                <option value="isaac">Isaac Marcones da Silva Costa</option>
+            </select>
+
+
+            <br>
+            <br>
+            <h3> Adicione a Carteira do seu PET: </h3>
+
+
+            <input type="file" id="myfile" name="myfile"><br><br>
+
+
+
+            <br>
+
+
+
+
+            <h3>Conclua a Solicitação do Serviço abaixo:</h3>
+            <button onclick="">Solicitar Serviço</button>
+
+            <br>
+            <br>
+
+            <h3>Volte para a tela Principal! Segue abaixo:</h3>
+            <a href="TelaAgendamento.HTML">Tela Agendamento > Voltar..</a>
+            <br>
+            <br>
+
+        </div>
+
+
+
+</body>
